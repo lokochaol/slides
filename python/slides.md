@@ -61,3 +61,28 @@ copy.copy(x[, memo])
 
 https://qiita.com/msssgur/items/12992fc816e6adf32cff
 
+---
+
+# 関数からの返り値をそのまま展開する
+
+```python
+def func() -> int, str, str:
+    return 1, "a", "b"
+
+print(*func())
+```
+
+```shell
+1
+a
+b
+```
+
+---
+
+# iterableなオブジェクトの中身を順番に返す
+yeild
+
+```python
+yeild
+```
