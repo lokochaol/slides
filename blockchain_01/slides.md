@@ -51,6 +51,14 @@ for num in hash_arr:
 ```
 
 ---
+
+# sb[::-1]
+これなんの処理だっけ？
+
+開始index:終了index:パターン？
+
+
+---
 layout: fact
 ---
 

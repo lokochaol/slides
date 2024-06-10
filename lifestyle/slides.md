@@ -79,3 +79,7 @@ layout: center
 layout: center
 ---
 
+# 2024/6/10(月)
+
+9:00 スタバ be>>Going -> 8時着にしたい。
+10:00 オフィス インターン開始
