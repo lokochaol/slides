@@ -80,9 +80,26 @@ b
 
 ---
 
-# iterableなオブジェクトの中身を順番に返す
-yeild
+# pythonの変数はブロックで束縛される
+逆にglobalやunlocal定義をしない限り、ブロック内でしか束縛されない
+
+-> ブロックとは？
+
+---
+
+# 文字列を安全にいじる
+
+data.get(, "")
+
+---
+
+# スライスとストライド
 
 ```python
-yeild
+text[start:end:pattern?]
 ```
+
+---
+
+# Enum
+djangoのchoicesはpythonの標準ライブラリのenumを継承している。
