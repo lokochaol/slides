@@ -86,4 +86,10 @@ layout: center
 
 ---
 
+# Bitcoin Block 0 
+satoshi nakamoto
+
+https://www.blockchain.com/explorer/blocks/btc/0
+
+---
 
