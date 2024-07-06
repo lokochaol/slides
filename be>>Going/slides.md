@@ -45,3 +45,70 @@ sns共有から予約するシステム
 
 - agoda affiliate
 - instagram
+# 実装に必要な項目
+
+- instagram api
+- agoda api
+- chatGPT 4o api
+- aws サーバーを立てる
+
+
+---
+
+# instagramでDM自動返信
+
+https://developers.facebook.com/docs/messenger-platform/overview#permissions
+>Instagramプロアカウントは、Messengerプラットフォームを使用し、自動返信、ライブエージェントの返信、または自動化とライブエージェントを組み合わせて、利用者のメッセージを処理できます。
+
+---
+
+# 必要なこと
+
+- instagramプロアカウントの作成
+- webhookを利用する、サーバーが必要そう(instagram apiからwebhookでDMの通知を受け取る) > 必要！ とりあえずアカウトは作れたっぽい。
+    - begoing.trip
+    - TODO: facebookアカウント作成, 紐付け
+
+---
+
+# agoda api
+
+- ホームページが必要笑
+    >アカウント承認ステイタスは現在「保留中」です。CIDの選択および対応するAPIキーの生成は、アカウント承認後に可能となります。
+- ブログサイトか、予約サイトか早速作るのがありかも？必要なもの揃えつつ？
+- それかすでにあるブログサイト使って、そこにurl貼って認証もらうか？
+- ちゃんとやれればこれ自体アフィリエイト報酬が出る。
+- begoing のサービス概要ページの作成。LP
+
+---
+
+# LP作成
+サービス概要を伝えるページの作成
+
+- サービス概要
+
+
+---
+
+# chatGPT
+
+https://qiita.com/kenji-kondo/items/87e71bf9645338d59ecb
+これかな...
+
+1. base64でエンコードして、promptoに"ここの住所を教えてと入れる
+
+---
+
+- docker上で動くrest apiを自分でつくてっみる。
+- api
+- サーバーを運用する
+    - aws 
+    - 立てる
+    - アプリをどうやって実行する？ django フレームワーク
+
+
+# SDGs
+
+- 高度な教育
+    留学支援。
+    途上国から経済大国へ
