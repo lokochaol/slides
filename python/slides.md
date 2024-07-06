@@ -103,3 +103,11 @@ text[start:end:pattern?]
 
 # Enum
 djangoのchoicesはpythonの標準ライブラリのenumを継承している。
+
+---
+
+# テストデータ作成のベストプラクティス、、
+現状の実装はカスタムコマンドを使ってfactoryから生成している様子。
+factoryとfixtureはどう使い分ける？
+
+　
