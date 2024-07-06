@@ -15,7 +15,7 @@ importers:
         specifier: latest
         version: 0.25.0
       '@slidev/theme-seriph':
-        specifier: latest
+        specifier: ^0.25.0
         version: 0.25.0
       vue:
         specifier: ^3.4.27
