@@ -110,4 +110,13 @@ djangoのchoicesはpythonの標準ライブラリのenumを継承している。
 現状の実装はカスタムコマンドを使ってfactoryから生成している様子。
 factoryとfixtureはどう使い分ける？
 
-　
+---
+
+# dict keyの欠損にも対応する実装のベストプラクティス
+
+- get
+- setdefault
+- defaultdict
+- __missing__
+
+---
